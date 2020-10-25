@@ -78,7 +78,7 @@ def get_text_messages(message):
 def get_text_messages(message):
     if message.text == "Акустические гитары":
         #photo/PARKSONS_JB4111C
-        photo = open('Photoex/PARKSONS_JB4111C_Black_2.jpg', 'rb')
+        photo = open('Photoexs/PARKSONS_JB4111C_Black_2.jpg', 'rb')
         bot.send_photo(message.from_user.id, photo)
         #info with btn/PARKSONS_JB4111C
         keyboard = types.InlineKeyboardMarkup()
@@ -86,7 +86,7 @@ def get_text_messages(message):
         keyboard.add(url_button)
         bot.send_message(message.chat.id, "Отлично зарекомендовавший себя инструмент в доступном классе акустических гитар.", reply_markup=keyboard)
         #photo/parksons_jb411
-        photo = open('Photoex/parksons_jb411_black_front.jpg','rb')
+        photo = open('Photoexs/parksons_jb411_black_front.jpg','rb')
         bot.send_photo(message.from_user.id, photo)
         #info with btn/parksons_jb411
         keyboard = types.InlineKeyboardMarkup()
@@ -94,7 +94,7 @@ def get_text_messages(message):
         keyboard.add(url_button)
         bot.send_message(message.chat.id, "Отлично зарекомендовавший себя инструмент в доступном классе акустических гитар.", reply_markup=keyboard)
         #photo/AD810_LH_OP
-        photo = open('Photoex/AD810_LH_OP.jpg', 'rb')
+        photo = open('Photoexs/AD810_LH_OP.jpg', 'rb')
         bot.send_photo(message.from_user.id, photo)
         #info with btn/AD810_LH_OP
         keyboard = types.InlineKeyboardMarkup()
@@ -102,7 +102,7 @@ def get_text_messages(message):
         keyboard.add(url_button)
         bot.send_message(message.chat.id, "Идеальный инструмент для новичка, который удивит и профессионалов. Отличное исполнение, яркое звучание.",reply_markup=keyboard)
         #photo/fg800-nt-main-yamaha
-        photo = open('Photoex/fg800-nt-main-yamaha.jpg', 'rb')
+        photo = open('Photoexs/fg800-nt-main-yamaha.jpg', 'rb')
         bot.send_photo(message.from_user.id, photo)
         #info with btn/fg800-nt-main-yamaha
         keyboard = types.InlineKeyboardMarkup()
@@ -110,7 +110,7 @@ def get_text_messages(message):
         keyboard.add(url_button)
         bot.send_message(message.chat.id, "Легендарная гитара от известного бренда Yamaha, имеет отличное звучание, качественную сборку, за не высокую стоимость. Каждая деталь гитары FG создана для того, чтобы сделать ее еще лучше.", reply_markup=keyboard)
         #photo/fg800-bs-main-yamaha
-        photo = open('Photoex/fg800-bs-main-yamaha.jpg', 'rb')
+        photo = open('Photoexs/fg800-bs-main-yamaha.jpg', 'rb')
         bot.send_photo(message.from_user.id, photo)
         #info with btn/fg800-bs-main-yamaha
         keyboard = types.InlineKeyboardMarkup()
@@ -118,7 +118,7 @@ def get_text_messages(message):
         keyboard.add(url_button)
         bot.send_message(message.chat.id, "Легендарная гитара от известного бренда Yamaha, имеет отличное звучание, качественную сборку, за не высокую стоимость. Каждая деталь гитары FG создана для того, чтобы сделать ее еще лучше.", reply_markup=keyboard)
         #photo/PARKSONS JB4111С SUNBURST
-        photo = open('Photoex/PARKSONS_JB4111C_Sunburst_2.jpg', 'rb')
+        photo = open('Photoexs/PARKSONS_JB4111C_Sunburst_2.jpg', 'rb')
         bot.send_photo(message.from_user.id, photo)
         #info with btn/PARKSONS JB4111С SUNBURST
         keyboard = types.InlineKeyboardMarkup()
@@ -126,7 +126,7 @@ def get_text_messages(message):
         keyboard.add(url_button)
         bot.send_message(message.chat.id, "Отлично зарекомендовавший себя инструмент в доступном классе акустических гитар.", reply_markup=keyboard)
         # photo/PARKSONS JB4111С NATURAL
-        photo = open('Photoex/PARKSONS_JB4111C_Natural_2.jpg', 'rb')
+        photo = open('Photoexs/PARKSONS_JB4111C_Natural_2.jpg', 'rb')
         bot.send_photo(message.from_user.id, photo)
         # info with btn/PARKSONS JB4111С NATURAL
         keyboard = types.InlineKeyboardMarkup()
@@ -134,7 +134,7 @@ def get_text_messages(message):
         keyboard.add(url_button)
         bot.send_message(message.chat.id, "Отлично зарекомендовавший себя инструмент в доступном классе акустических гитар.", reply_markup=keyboard)
         # photo/parksons_jb4111_natural
-        photo = open('Photoex/parksons_jb4111_natural.jpg', 'rb')
+        photo = open('Photoexs/parksons_jb4111_natural.jpg', 'rb')
         bot.send_photo(message.from_user.id, photo)
         # info with btn/parksons_jb4111_natural
         keyboard = types.InlineKeyboardMarkup()
@@ -142,7 +142,7 @@ def get_text_messages(message):
         keyboard.add(url_button)
         bot.send_message(message.chat.id, "Отлично зарекомендовавший себя инструмент в доступном классе акустических гитар.", reply_markup=keyboard)
         # photo/parksons_jb4111_sunburst
-        photo = open('Photoex/parksons_jb4111_sunburst.jpg', 'rb')
+        photo = open('Photoexs/parksons_jb4111_sunburst.jpg', 'rb')
         bot.send_photo(message.from_user.id, photo)
         # info with btn/parksons_jb4111_sunburst
         keyboard = types.InlineKeyboardMarkup()
@@ -150,7 +150,7 @@ def get_text_messages(message):
         keyboard.add(url_button)
         bot.send_message(message.chat.id, "Отлично зарекомендовавший себя инструмент в доступном классе акустических гитар.", reply_markup=keyboard)
         # photo/AD810_12_OP
-        photo = open('Photoex/AD810_12_OP.jpg', 'rb')
+        photo = open('Photoexs/AD810_12_OP.jpg', 'rb')
         bot.send_photo(message.from_user.id, photo)
         # info with button/AD810_12_OP
         keyboard = types.InlineKeyboardMarkup()
@@ -158,7 +158,7 @@ def get_text_messages(message):
         keyboard.add(url_button)
         bot.send_message(message.chat.id, "Корпус AD810-12 OP выполнен из ели и красного дерева, данный инструмент является наилучшим выбором для начинающих гитаристов, этому соответствует не высокая стоимость и отличное качество инструмента...", reply_markup=keyboard)
         # photo/AD810_SSB
-        photo = open('Photoex/AD810_SSB.jpg', 'rb')
+        photo = open('Photoexs/AD810_SSB.jpg', 'rb')
         bot.send_photo(message.from_user.id, photo)
         # info with btn/AD810_SSB
         keyboard = types.InlineKeyboardMarkup()
@@ -166,7 +166,7 @@ def get_text_messages(message):
         keyboard.add(url_button)
         bot.send_message(message.chat.id, "Идеальный инструмент для новичка, который удивит и профессионалов. Отличное исполнение, яркое звучание.", reply_markup=keyboard)
         # photo/AD810m_op
-        photo = open('Photoex/AD810m_op.jpg', 'rb')
+        photo = open('Photoexs/AD810m_op.jpg', 'rb')
         bot.send_photo(message.from_user.id, photo)
         # info with btn/AD810m_op
         keyboard = types.InlineKeyboardMarkup()
@@ -175,7 +175,7 @@ def get_text_messages(message):
         bot.send_message(message.chat.id, "Идеальный инструмент для новичка, который удивит и профессионалов. Отличное исполнение, яркое звучание.", reply_markup=keyboard)
     if message.text == "Классические гитары":
         # photo/AC100_OP
-        photo = open('Photoex/AC100_OP.jpg', 'rb')
+        photo = open('Photoexs/AC100_OP.jpg', 'rb')
         bot.send_photo(message.from_user.id, photo)
         # info with btn/AC100_OP
         keyboard = types.InlineKeyboardMarkup()
@@ -183,7 +183,7 @@ def get_text_messages(message):
         keyboard.add(url_button)
         bot.send_message(message.chat.id, "Доступный инструмент для учеников музыкальных школ, и любителей исполнять классическую музыку, качество за за не высокую стоимость.", reply_markup=keyboard)
         # photo/AC50op-main-cort
-        photo = open('Photoex/AC50op-main-cort.jpg', 'rb')
+        photo = open('Photoexs/AC50op-main-cort.jpg', 'rb')
         bot.send_photo(message.from_user.id, photo)
         # info with btn/AC50op-main-cort
         keyboard = types.InlineKeyboardMarkup()
@@ -191,7 +191,7 @@ def get_text_messages(message):
         keyboard.add(url_button)
         bot.send_message(message.chat.id, "Идеальный инструмент для новичка, который удивит и профессионалов. Отличное исполнение, яркое звучание.", reply_markup=keyboard)
         # photo/yamaha_c_70
-        photo = open('Photoex/yamaha_c_70.jpg', 'rb')
+        photo = open('Photoexs/yamaha_c_70.jpg', 'rb')
         bot.send_photo(message.from_user.id, photo)
         # info with btn/yamaha_c_70
         keyboard = types.InlineKeyboardMarkup()
@@ -199,7 +199,7 @@ def get_text_messages(message):
         keyboard.add(url_button)
         bot.send_message(message.chat.id, "Инструмент для учеников музыкальных школ, и любителей исполнять классическую музыку, великолепное звучание, яркий резонанс.", reply_markup=keyboard)
         # photo/yamaha_c_40_b
-        photo = open('Photoex/yamaha_c_40_b.jpg', 'rb')
+        photo = open('Photoexs/yamaha_c_40_b.jpg', 'rb')
         bot.send_photo(message.from_user.id, photo)
         # info with btn/yamaha_c_40_b
         keyboard = types.InlineKeyboardMarkup()
@@ -207,7 +207,7 @@ def get_text_messages(message):
         keyboard.add(url_button)
         bot.send_message(message.chat.id, "Доступный инструмент для учеников музыкальных школ, и любителей исполнять классическую музыку, качество за за не высокую стоимость.", reply_markup=keyboard)
         # photo/yamaha_c_40_m
-        photo = open('Photoex/yamaha_c_40_m.jpg', 'rb')
+        photo = open('Photoexs/yamaha_c_40_m.jpg', 'rb')
         bot.send_photo(message.from_user.id, photo)
         # info with btn/yamaha_c_40_m
         keyboard = types.InlineKeyboardMarkup()
@@ -215,7 +215,7 @@ def get_text_messages(message):
         keyboard.add(url_button)
         bot.send_message(message.chat.id, "Доступный инструмент для учеников музыкальных школ, и любителей исполнять классическую музыку, качество за за не высокую стоимость.", reply_markup=keyboard)
         # photo/Yamaha_C_40
-        photo = open('Photoex/amaha_C_40.jpg', 'rb')
+        photo = open('Photoexs/amaha_C_40.jpg', 'rb')
         bot.send_photo(message.from_user.id, photo)
         # info with btn/Yamaha_C_40
         keyboard = types.InlineKeyboardMarkup()
@@ -223,7 +223,7 @@ def get_text_messages(message):
         keyboard.add(url_button)
         bot.send_message(message.chat.id, "Доступный инструмент для учеников музыкальных школ, и любителей исполнять классическую музыку, качество за за не высокую стоимость.", reply_markup=keyboard)
         # photo/AC100DX_OP
-        photo = open('Photoex/AC100DX_OP.jpg', 'rb')
+        photo = open('Photoexs/AC100DX_OP.jpg', 'rb')
         bot.send_photo(message.from_user.id, photo)
         # info with btn/AC100DX_OP
         keyboard = types.InlineKeyboardMarkup()
@@ -231,7 +231,7 @@ def get_text_messages(message):
         keyboard.add(url_button)
         bot.send_message(message.chat.id, "Доступный инструмент для учеников музыкальных школ, и любителей исполнять классическую музыку, качество за за не высокую стоимость.", reply_markup=keyboard)
         # photo/AC100_SG
-        photo = open('Photoex/AC100_SG.jpg', 'rb')
+        photo = open('Photoexs/AC100_SG.jpg', 'rb')
         bot.send_photo(message.from_user.id, photo)
         # info with btn/AC100_SG
         keyboard = types.InlineKeyboardMarkup()

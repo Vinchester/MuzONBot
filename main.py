@@ -2095,7 +2095,7 @@ def get_text_messages(message):
         bot.send_photo(message.from_user.id, photo)
         # info with btn/DUNLOP ORIGINAL PLAYER’S PACK 1.0
         keyboard = types.InlineKeyboardMarkup()
-        url_button = types.InlineKeyboardButton(text="DUNLOP ORIGINAL PLAYER’S PACK 1.0(126,00 грн)", url="")
+        url_button = types.InlineKeyboardButton(text="DUNLOP ORIGINAL PLAYER’S PACK 1.0(126,00 грн)", url="https://muzon.com.ua/product/dunlop-bl100p1-0-blackline-original-players-pack-1-0/")
         keyboard.add(url_button)
         bot.send_message(message.chat.id, "DUNLOP BL100P1.0 BLACKLINE ORIGINAL PLAYER’S PACK 1.0", reply_markup=keyboard)
         # photo/DUNLOP STUBBY PLAYER’S PACK 1.0

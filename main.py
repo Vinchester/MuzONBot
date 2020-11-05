@@ -15,7 +15,7 @@ def get_text_messages(message):
     keyboard.add(btn1,  btn3, btn4, btn5, btn6, btn7)
     bot.send_message(message.from_user.id, "Товары", reply_markup=keyboard)
 
-@bot.message_handler(content_types=["Назад"])
+@bot.message_handler(commands=["Назад"])
 def get_text_messages(message):
     keyboard = types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
     btn1 = types.KeyboardButton(text="/Гитары")

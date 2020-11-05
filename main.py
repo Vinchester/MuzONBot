@@ -15,17 +15,18 @@ def get_text_messages(message):
     keyboard.add(btn1,  btn3, btn4, btn5, btn6, btn7)
     bot.send_message(message.from_user.id, "Товары", reply_markup=keyboard)
 
-@bot.message_handler(commands=["Назад"])
+@bot.message_handler(content_types=['text'])
 def get_text_messages(message):
-    keyboard = types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
-    btn1 = types.KeyboardButton(text="/Гитары")
-    btn3 = types.KeyboardButton(text="/Ударные")
-    btn4 = types.KeyboardButton(text="/Смычковые")
-    btn5 = types.KeyboardButton(text="/Клавишные")
-    btn6 = types.KeyboardButton(text="/Аксессуары")
-    btn7 = types.KeyboardButton(text="/Гитарное_оборудование")
-    keyboard.add(btn1,  btn3, btn4, btn5, btn6, btn7)
-    bot.send_message(message.from_user.id, "Товары", reply_markup=keyboard)
+    if message.text == "Назад":
+        keyboard = types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
+        btn1 = types.KeyboardButton(text="/Гитары")
+        btn3 = types.KeyboardButton(text="/Ударные")
+        btn4 = types.KeyboardButton(text="/Смычковые")
+        btn5 = types.KeyboardButton(text="/Клавишные")
+        btn6 = types.KeyboardButton(text="/Аксессуары")
+        btn7 = types.KeyboardButton(text="/Гитарное_оборудование")
+        keyboard.add(btn1,  btn3, btn4, btn5, btn6, btn7)
+        bot.send_message(message.from_user.id, "Товары", reply_markup=keyboard)
 
 @bot.message_handler(commands=["/Назад"])
 def get_text_messages(message):
@@ -55,7 +56,7 @@ def get_text_messages(message):
     btn1 = types.KeyboardButton(text="/Струны_для_гитар")
     btn2 = types.KeyboardButton(text="/Медиаторы")
     #btn3 = types.KeyboardButton(text="Звукосниматели")
-    btn4 = types.KeyboardButton(text="/Назад")
+    btn4 = types.KeyboardButton(text="Назад")
     keyboard.add(btn1, btn2, btn4)
     bot.send_message(message.from_user.id, "Товары", reply_markup=keyboard)
 
